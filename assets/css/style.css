@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -17,8 +15,6 @@ header{
     width: 100%;
     height: 640px;
     background: #7A7266;
-    /* height: 100vh; */
-    /* background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(/assets/img/slider-m.svg); */
     background-size: cover;
     background-image:  url(/assets/img/slider-m.svg);
     background-repeat: no-repeat;
@@ -27,7 +23,6 @@ header{
     right: 0px;
     top: 0px;
     bottom: 0px;
-
 }
 
 .container-nav{
@@ -40,44 +35,33 @@ header{
     left: 0px;
     right: 0px;
     top: 570px;
-   
 }
 
 .logo{
-    background-color: #2A2A2A;
+    /* background-color: #2A2A2A; */
     width: 83px;
     display: flex;
     flex-direction: column;
     margin-left: 5px;
-   
-}
-
-.bg-transparent:hover{
-    background-color: red;
-}
-
-.btn:hover{
-background-color: red;
 }
 
 .container-slider{
     height: 100vh;
     top: 0;
-
-    
 }
+
 .frame-2{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px 16px;
-gap: 16px;
-color: #FFFFFF;
-position: absolute;
-width: 100%;
-height: 146px;
-left: 0px;
-top: 243px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 100%;
+    height: 146px;
+    left: 0px;
+    top: 243px;
 }
 
 .titulo{
@@ -85,11 +69,7 @@ top: 243px;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    
-    /* width: 328px; */
     height: 81px; 
-   
-    
 }
 
 #titulo-1{
@@ -108,7 +88,6 @@ top: 243px;
     font-size: 3.3125rem ;
     line-height: 4.4375rem;
     text-align: center;
-    /* margin-bottom: 0; */
 }
 
 .acoes{
@@ -116,13 +95,12 @@ top: 243px;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    /* margin-top: 1rem; */
     gap: 8px;
     column-gap:0.8rem;
     font-size: 0.875rem;
-   
 }
-.btn-acao{
+
+.btn-acao, .btn-reservas{
     color:#FFFFFF;
     background-color: #7A7266;
     display: flex;
@@ -135,7 +113,6 @@ top: 243px;
     gap: 10px;
     border:none;
     cursor: pointer;
-
 }
 
 .btn-acao:hover{
@@ -151,19 +128,18 @@ top: 243px;
     width: 100%;
     height: 814px;
     background: #7A7266;
+    position: relative;
    
 }
 
 .container-titulo{
     font-family: 'Playfair Display', serif;
-    font-style: normal;
-font-weight: 600;
-font-size: 34px;
-line-height: 45px;
-text-align: center;
-width: 312px;
-height: 69px;
-/* font-feature-settings: 'pnum' on, 'lnum' on; */
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 45px;
+    text-align: center;
+    width: 312px;
+    height: 69px;
 }
 
 .box-carousel{
@@ -175,54 +151,40 @@ height: 69px;
     height: 62px;
     width: 40px;
     background-color: #ffffff;
-    /* background-size: 40px 62px; */
     background-image: url(/assets/img/Vector.svg); 
     background-repeat: no-repeat;
     background-position: 50%;
-    
 }
+
 .seta-e {
     height: 62px;
     width: 40px;
     background-color: #ffffff;
-    /* background-size: 40px 62px; */
     background-image: url(/assets/img/Vector_e.svg); 
     background-repeat: no-repeat;
     background-position: 50%;
-    
 }
 
 .box{
-/* display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 32px;
-/* gap: 24px; */ 
-
-position: absolute;
-width: 280px;
-height: 195px;
-left: calc(50% - 280px/2);
-top: -104px;
-padding: 2rem;
-background: #FFFFFF;
-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
-
+    position: absolute;
+    width: 280px;
+    height: 195px;
+    left: calc(50% - 280px/2);
+    top: -104px;
+    padding: 2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 .suite-cristal{
-   
     font-family: 'Playfair Display', serif;
     font-size: 1.375rem;
     font-weight: 600;
     line-height: 29px;
-   
 }
 
 .suite-cristal-texto{
     font-family: 'Montserrat';
-    
     font-weight: 400;
     font-size: 0.8rem;
     line-height: 150%;
@@ -231,4 +193,101 @@ box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
 .saiba-mais{
     font-size: 0.8rem;
     background-color: #5A493E !important;
+}
+
+.hyperlink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    position: absolute;
+    width: 180px;
+    height: 49px;
+    bottom: 64px;
+}
+
+#hyperlink{
+    width: 132px;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: #ffffff;
+    text-decoration-line: underline;
+}
+
+.motel{
+   background-color:  #EEEEEE;
+   color: #2A2A2A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 64px;
+    gap: 10px;
+    width: 100%;
+    height: 1056px;
+    background-color: red;
+}
+
+.container-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+    height: 312px;
+    background: url(/assets/img/o-motel-m.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.08)); 
+    top: 0;
+}
+
+.titulo-motel{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.125rem;
+    font-weight: 600;
+    line-height: 29px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.suite-cristal-texto{
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    color: #2A2A2A;
+    position: absolute;
+    width: 312px;
+    height: 696px;
+    left: calc(50% - 312px/2);
+    top: -23px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+#botaoSaibaMais{
+    width: 45%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left:1rem;
 }
