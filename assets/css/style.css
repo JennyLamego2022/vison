@@ -46,9 +46,12 @@ header{
     
 }
 
-.container-fluid, .bg-body-tertiary{
-background-color: #2A2A2A !important;
+.bg-transparent:hover{
+    background-color: red;
+}
 
+.btn:hover{
+background-color: red;
 }
 
 .frame-2{
