@@ -50,7 +50,8 @@ header{
     height: 70px;
     left: 0px;
     right: 0px;
-    top: 570px; 
+    /* top: 570px;  */
+    position: absolute;
 }
 .nav-collapse{
     background-color: var(--text-second-color);
@@ -71,6 +72,18 @@ header{
 .container-slider{
     height: 100vh;
     top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slider{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .frame-2{
@@ -84,7 +97,7 @@ header{
     width: 100%;
     height: 146px;
     left: 0px;
-    top: 243px;
+    /* top: 243px; */
 }
 
 .titulo{
