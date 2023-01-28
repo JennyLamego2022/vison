@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
     <title>Vison Motel</title>
 </head>
 <body>
@@ -58,7 +61,7 @@
         </div>
     </header>
     <main>
-        <section class="suites">
+        <section class="suites" id="suites">
             <div class="container-titulo">
                 <h1>Nossas suítes</h1>
             </div>
@@ -97,7 +100,10 @@
         </section>
         <section class="o-motel">
             <div class="motel">
-                <img class="container-img"></img>
+                <div class="container-img">
+                    <img src="./assets/img/o-motel-m.svg" id="container-img" ></img>
+                </div>
+               
     
                 <div class="card border-0 rounded-0 " style=" color: #2A2A2A">
                     <div class="card-body box-1 ">
@@ -118,21 +124,21 @@
                     <h1 class="titulo-cortesia">Cortesias</h1>
                 </div>
                 <article class="card border-0 rounded-0 text-center card-cortesia col-12 " style="width: 19.5rem; height:23.5625rem; color: #2A2A2A">
-                    <img src="./assets/img/imgCard1.svg" class="card-img-top" alt="Café da Manhã">
+                    <img src="./assets/img/imgCard1.svg" class="card-img-top border-0 rounded-0" alt="Café da Manhã">
                     <div class="card-body p-4  box-2 ">
                         <h5 class="card-title titulo-card"><b>Café da manhã</b></h5>
                         <p class="card-text texto-card">Servido todos os dias entre 6h e 10h, somente para o pernoite.</p>
                     </div>
                 </article>
                 <article class="card border-0 rounded-0 text-center card-cortesia col-12" style="width: 19.5rem; height:26.75rem; color: #2A2A2A">
-                    <img src="./assets/img/imgCard2.svg" class="card-img-top" alt="Balões de festa">
+                    <img src="./assets/img/imgCard2.svg" class="card-img-top border-0 rounded-0" alt="Balões de festa">
                     <div class="card-body p-4 box-2">
                         <h5 class="card-title titulo-card"><b>Especial para Aniversariantes</b></h5>
                         <p class="card-text texto-card">A equipe do Vison Motel quer tornar o seu aniversário ainda mais especial!</p>
                     </div>
                 </article>
                 <article class="card border-0 rounded-0 text-center card-cortesia col-12 " style="width: 19.5rem; height:23.5625rem; color: #2A2A2A">
-                    <img src="./assets/img/imgCard3.svg" class="card-img-top" alt="Casal na cama">
+                    <img src="./assets/img/imgCard3.svg" class="card-img-top border-0 rounded-0" alt="Casal na cama">
                     <div class="card-body p-4 box-2">
                         <h5 class="card-title titulo-card"><b>Descontos</b></h5>
                         <p class="card-text texto-card">Economize se hospedando com desconto no Motel Vison!</p>
@@ -154,11 +160,29 @@
                         <p class="card-text texto-localizacao">Avenida Santos Dumont, 5253<br>Zona Industrial Norte - Joinville - SC</p>
                         <a href="#" class="btn btn-primary border-0 rounded-0 py-3 px-4 btn-rota">Traçar rota</a>
                     </div>
-                   
                 </article>
           
             </div>
         </section>
     </main>
+    <footer>
+        <div class="contato ">
+                
+            <article class="card bg-transparent border-0 rounded-0 text-center card-contato" >
+                <figure class="img-logo">
+                    <img src="./assets/img/Motel.svg" class="card-img-top" alt="Logo">
+                    <img src="./assets/img/Vison.svg" class="card-img-top" alt="Logo">
+                </figure>
+                <span id="traco"><img src="./assets/img/Rectangle 4.svg" alt=""></span>
+                <div class="card-body pt-4 px-0 box-contato ">
+                    <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Reservas</a>
+                    <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Ver suítes</a>
+                    <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Whatsapp</a>
+                    <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Contato</a>
+                </div>
+            </article>
+        </div>
+    </footer>
+    <p id="copyright">guia de motéis sites │ guia de motéis © </p>
 </body>
 </html>
