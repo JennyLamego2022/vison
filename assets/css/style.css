@@ -229,6 +229,10 @@ header{
     display: none;
 }
 
+.img-suites{
+    display: none;
+}
+
 .suite-cristal{
     font-family: 'Playfair Display', serif;
     font-size: 1.375rem;
