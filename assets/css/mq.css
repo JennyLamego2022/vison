@@ -24,18 +24,17 @@ body{
         background-image:  url(/assets/img/slider-d.svg);
         background-size: cover;
         height: 100vh;
-      
     }
   
     .container-nav{
        position: relative;
        top: 0;
-       
-       
     }
+
     .bg-nav, .nav-collapse{
         background-color: transparent;
     }
+
     .slider{
         height: 100vh;
         position: absolute;
@@ -45,16 +44,18 @@ body{
         top: 0;
         bottom: 0;
     }
+
     .container-slider{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     .sticky-bottom{
         position: absolute;
     }
 
-    /* section Suites */
+    /*________________________ section Suites ________________________*/
     
     .suites{
         display: flex;
@@ -62,13 +63,8 @@ body{
         align-items: center;
         height: 782px;
         padding: 80px 0;
-
     }
 
-    /* .img-carousel{
-        height: 440px;
-        object-fit: contain;
-    } */
     .box-carousel{
         display: none;
     }
@@ -95,13 +91,11 @@ body{
         display: flex;
         justify-content: space-between;
         position: relative;
-       
    }
 
    .img-suite1{
         position: relative;
         display: flex;
-        /* align-content: center; */
         width: 100%;
         height: 100%;
         margin-bottom: 0;
@@ -127,17 +121,8 @@ body{
 
     .box {
         position: absolute;
-        /* width: 280px;
-        height: 195px;
-        left: calc(50% - 280px/2);
-        top: -104px;
-        padding: 2rem; */
-        /* background: var(--text-primary-color);
-        box-shadow: 0px 4px 10px rgb(0 0 0 / 8%);
-        color: var(--text-second-color); */
         display: flex;
         align-items: center;
-        /* align-content: center; */
         justify-content: center;
         flex-direction: row;
         width: 342px;
@@ -150,13 +135,27 @@ body{
 
     .suite-cristal-texto {
        padding-top: 0 !important;       ;
-     
     }
    
     .saiba-mais{
-        
         width: 109px;
         height: 41px;   
+    }
+
+    /* _________________________ O Motel ____________________________ */
+    .o-motel{
+        width: 100%;
+        height: 704px;
+        align-items: center;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: var(--body-bg-second-color);
+        padding-bottom: 0;
+        padding: 4.5rem;
+        padding-top: 80px;
+        padding-bottom: 112px;
     }
 
     .motel{
@@ -164,32 +163,73 @@ body{
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        /* padding: 80px 72px; */
         gap:0;
-        
-       
+        padding-bottom: 0;
         width: 100%;
-        height: 704px;
+        box-shadow: none;
     }
 
     .container-img, .container-texto{
         width: 50%;
-        height: 512px;
+        height: 100%;
         position: relative;
-        background-color: blue;
+        background-color: transparent;
     }
 
     .box-1{
         width: 100%;
-       background-color: red;
         height: 512px;
-        
-    }
-
-    .box-1{
         position: relative;
         gap: 0;
         top: 0;
         left: 0;
     }
+
+    .container-texto{
+        width: 50%;
+        height: 512px;
+        position: relative;
+        gap: 0;
+        top: 2rem;
+        left: 0;
+    }
+
+    #container-img{
+        object-fit: cover;
+        height: 100%;
+      
+    }
+
+    /* __________________________________ Cortesias __________________________________ */
+    .cortesias{
+        width: 100%;
+        height: 655px;
+        gap: 0;
+    }
+
+    .container-titulo {
+        height: 45px;
+        margin-bottom: 2rem;
+    }
+    #card2{
+        height:23.5625rem !important;
+    }
+
+    .card-cortesia{
+        width: 23rem !important;
+        height: 377px;
+    }
+
+    .box-2{
+        height: 133px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .card-img-top {
+        height: 244px;
+        width: 100%;
+        object-fit: cover;
+    }
 }
+
