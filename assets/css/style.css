@@ -229,7 +229,7 @@ header{
     display: none;
 }
 
-.img-suites{
+.img-suites-mq{
     display: none;
 }
 
@@ -244,10 +244,11 @@ header{
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 0.875rem;
-    line-height: 150%;
+    /* line-height: 150%; */
     padding-left: 1rem;
     padding-right: 1rem; 
     line-height: 160%;
+    padding-bottom: 1rem;
 }
 
 .saiba-mais{
