@@ -225,6 +225,10 @@ header{
     color: var(--text-second-color)
 }
 
+.carousel-mq{
+    display: none;
+}
+
 .suite-cristal{
     font-family: 'Playfair Display', serif;
     font-size: 1.375rem;

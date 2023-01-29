@@ -71,8 +71,8 @@
                 <h1>Nossas suítes</h1>
             </div>
             
-            <div id="carouselExampleAutoplaying" class="carousel slide box-carousel" data-interval="3000" data-bs-ride="true" height ="440px">
-                <div class="carousel-inner">
+            <div id="carouselExampleAutoplaying" class="carousel slide box-carousel box-carousel-mq" data-interval="3000" data-bs-ride="true" height ="440px">
+                <div class="carousel-inner img-carousel">
                     <div class="carousel-item active">
                         <img src="./assets/img/image 1.svg" class="d-block w-100 imagem-carrossel-um" alt="Suite 1">
                     </div>
@@ -90,11 +90,31 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <div class="img-suites">
+                <div class="carousel-mq">
+                    <img src="./assets/img/image 2.svg" id= "suite2" alt="Suite 2">
+                    <img src="./assets/img/image 1.svg"  id= "suite1" alt="Suite 1">
+                    <img src="./assets/img/image 3.svg" id= "suite3" alt="Suite 3">
+                </div>
+               
+                <button class="carousel-control-prev d-flex justify-content-center" style = "left:149px;" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control seta-e" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next d-flex justify-content-center" style = "right:149px;" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control seta-d" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             <div class="card border-0 rounded-0 " style=" color: #2A2A2A">
                 <div class="card-body text-center box ">
-                    <h5 class="card-title pt-3 suite-cristal">Suíte Cristal</h5>
-                    <p class="card-text suite-cristal-texto">A partir de R$164,00</p>
-                    <a href="#" class="btn btn-primary border-0 rounded-0 px-4 py-3 saiba-mais">Saiba mais</a>
+                    <div>
+                        <h5 class="card-title pt-3 suite-cristal">Suíte Cristal</h5>
+                        <p class="card-text suite-cristal-texto">A partir de R$164,00</p>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-primary border-0 rounded-0 px-4 py-3 saiba-mais">Saiba mais</a>
+                    </div>
                 </div>
             </div>
             <div class="hyperlink">
@@ -108,7 +128,7 @@
                 </div>
                
     
-                <div class="card border-0 rounded-0 " style=" color: #2A2A2A">
+                <div class="card border-0 rounded-0 container-texto " style=" color: #2A2A2A">
                     <div class="card-body box-1 ">
                         <h5 class="card-title pt-3 titulo-motel">O Motel</h5>
                         <p class="card-text suite-cristal-texto">O Vison Motel está localizado na Zona Industrial Norte, em Joinville e conta com ambientes exclusivos e privativos, basta escolher a suíte que mais combina com você. 
