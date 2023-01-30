@@ -231,5 +231,31 @@ body{
         width: 100%;
         object-fit: cover;
     }
+
+    /* ______________________________ Localização ________________________________ */
+
+    .localizacao-d{
+        display: initial;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 114px;
+        gap:1rem;
+        background-color: var(--body-bg-second-color);
+        color: var(--text-second-color);
+    }
+
+    .localizacao-m{
+        display:none;
+    }
+
+    #card-localizacao-d{
+        display: flex;
+        flex-direction: row;
+        width: 992px;
+        height: 290px;
+    }
 }
 
