@@ -19,23 +19,24 @@ body{
     --fontFamily-third: 'Titillium Web', sans-serif;
 }
 
-@media(min-width: 1024px){
+
+@media(min-width: 768px){
     header{
         background-image:  url(/assets/img/slider-d.svg);
         background-size: cover;
         height: 100vh;
     }
   
-    .container-nav{
+    /* .container-nav{
        position: relative;
        top: 0;
     }
 
     .bg-nav, .nav-collapse{
         background-color: transparent;
-    }
+    } */
 
-    .slider{
+    /* .slider{
         height: 100vh;
         position: absolute;
         top: 70px;
@@ -49,20 +50,22 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
+    } */
 
-    .sticky-bottom{
+    /* .sticky-bottom{
         position: absolute;
-    }
+    } */
 
     /*________________________ section Suites ________________________*/
     
     .suites{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 782px;
-        padding: 80px 0;
+        /* display: flex; */
+        /* flex-direction: column;
+        align-items: center; */
+         /* height:682px;  */
+       
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .box-carousel{
@@ -80,17 +83,18 @@ body{
         justify-content: space-between;
         align-items: center;
         padding: 0px 0px 80px;
-        gap: 68px;
+        /* gap: 68px; */
         width: 100%;
         height: 520px;
     }
 
    .suite1{
-        width: 100%;
-        height: 440px;
-        display: flex;
-        justify-content: space-between;
-        position: relative;
+    width: 59%;
+    height: 81%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
    }
 
    .img-suite1{
@@ -115,9 +119,12 @@ body{
 
     #suite2, #suite3{
         opacity: 50%;
+        width: 14%;
     }
 
- 
+    .hyperlink{
+        margin-top: 0;
+    }
 
     .box {
         position: absolute;
@@ -143,6 +150,197 @@ body{
     }
 
     /* _________________________ O Motel ____________________________ */
+    /* .o-motel{
+        width: 100%;
+        height: 704px;
+        align-items: center;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: var(--body-bg-second-color);
+        padding-bottom: 0;
+        padding: 4.5rem;
+        padding-top: 80px;
+        padding-bottom: 112px;
+    }
+
+    .motel{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap:0;
+        padding-bottom: 0;
+        width: 100%;
+        
+        box-shadow: none;
+    }
+
+    .container-img, .container-texto{
+        width: 50%;
+        height: 50%;
+        position: relative;
+        background-color: transparent;
+    }
+
+    .box-1{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        gap: 0;
+        top: 0;
+        left: 0;
+    }
+
+    .container-texto{
+        width: 50%;
+        height: 512px;
+        position: relative;
+        gap: 0;
+        top: 2rem;
+        left: 0;
+    } */
+
+    #container-img{
+        object-fit: cover;
+        height: 512px;
+      
+    }
+
+    /* __________________________________ Cortesias __________________________________ */
+    .cortesias{
+        width: 100%;
+        height: 655px;
+        gap: 0;
+    }
+
+      .container-titulo {
+        height: 45px;
+        margin-bottom: 1rem;
+    }
+
+    .box-cortesias{
+       column-gap: 2rem;
+    }
+    .card-largura{
+        height:24.5625rem !important;
+        margin-right: 0;
+        margin-left: 0;
+        width: 30% !important;
+    
+
+    }
+
+    .card-cortesia{
+        width: 23rem !important;
+        height: 377px;
+        
+    }
+
+    .box-2{
+        height: 133px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .card-img-top {
+        height: 244px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card-altura{
+        height: 180px!important;
+    }
+
+
+    .hyperlink-cortesia{
+        bottom: 31px;
+    }
+    /* ______________________________ Localização ________________________________ */
+
+    .localizacao-d{
+        display: initial;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 114px;
+        gap:1rem;
+        background-color: var(--body-bg-second-color);
+        color: var(--text-second-color);
+    }
+
+    .localizacao-m{
+        display:none;
+    }
+    .card-posicao-imagem-m{
+        display:none;
+    }
+    .card.localizacao, .card-posicao-imagem-d{
+        display: initial;
+        height: 290px;
+    }
+
+    #card-localizacao-d{
+        display: flex;
+        flex-direction: row;
+        width: 992px;
+        height: 290px;
+    }
+
+    /* ____________  footer ______________ */
+    .contato-m{
+        display: none;
+    }
+    .contato-d {
+        display: initial;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--text-second-color);
+        color: var(--text-primary-color);
+        padding: 80px 39px;
+        height: 290px;
+        gap: 1rem;
+    }
+
+     .lista{
+        width: 20%;
+       
+    }
+
+    .lista-contato, .lista-menu{
+        padding-left: 0;
+    }
+
+    .img-logo-d{
+        width:37%;
+    }
+
+    .endereco{
+        padding-top: 1rem;
+    }
+
+    .card-img-top-d{
+         width: 189px;   
+    }
+    #texto-especial{
+        font-size: 11px;
+        margin-bottom: 0;
+        
+    }
+    #copyright{
+        height: 36px;
+        padding-bottom:0;
+    }
+
+}
+
+@media (min-width: 1024px) {
+      /* _________________________ O Motel ____________________________ */
     .o-motel{
         width: 100%;
         height: 704px;
@@ -166,12 +364,13 @@ body{
         gap:0;
         padding-bottom: 0;
         width: 100%;
+        
         box-shadow: none;
     }
 
     .container-img, .container-texto{
         width: 50%;
-        height: 100%;
+        height: 512px;
         position: relative;
         background-color: transparent;
     }
@@ -194,68 +393,5 @@ body{
         left: 0;
     }
 
-    #container-img{
-        object-fit: cover;
-        height: 100%;
-      
-    }
-
-    /* __________________________________ Cortesias __________________________________ */
-    .cortesias{
-        width: 100%;
-        height: 655px;
-        gap: 0;
-    }
-
-    .container-titulo {
-        height: 45px;
-        margin-bottom: 2rem;
-    }
-    #card2{
-        height:23.5625rem !important;
-    }
-
-    .card-cortesia{
-        width: 23rem !important;
-        height: 377px;
-    }
-
-    .box-2{
-        height: 133px;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .card-img-top {
-        height: 244px;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    /* ______________________________ Localização ________________________________ */
-
-    .localizacao-d{
-        display: initial;
-        width: 100%;
-        height: 450px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 80px 114px;
-        gap:1rem;
-        background-color: var(--body-bg-second-color);
-        color: var(--text-second-color);
-    }
-
-    .localizacao-m{
-        display:none;
-    }
-
-    #card-localizacao-d{
-        display: flex;
-        flex-direction: row;
-        width: 992px;
-        height: 290px;
-    }
 }
 
