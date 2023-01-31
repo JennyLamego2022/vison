@@ -24,7 +24,6 @@ body, main{
     position: relative;
     height: auto;
     color:var(--text-primary-color);
-    background-color: red;
 }
 
 
@@ -37,7 +36,6 @@ header{
     background-size: cover;
     background-image:  url(/assets/img/slider-m.svg);
     background-repeat: no-repeat;
-    /* position: absolute; */
     left: 0px;
     right: 0px;
     top: 0px;
@@ -164,9 +162,6 @@ header{
 /* __________________ Suites___________________________ */
 
 .suites{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     padding: 64px 24px;
     gap: 8px;
     width: 100%;
@@ -315,7 +310,6 @@ header{
     gap: 24px;
     width: 100%;
     height: 312px;
-    /* background: url(/assets/img/o-motel-m.svg); */
     background-color: var(--body-bg-primary-color) ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -467,7 +461,6 @@ header{
 
 .bg-card{
     background-color: var(--body-bg-second-color) !important;
-    height: 674px;
 }
 
 .card-localizacao{
@@ -478,7 +471,7 @@ header{
 }
 
 .card-posicao-imagem-d{
-display: none;   
+    display: none;   
 }
 
 .card-posicao-imagem-m{

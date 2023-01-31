@@ -23,8 +23,6 @@
 </head>
 <body>
     <header>
-       
-        
         <div class="container-slider">
             <div class="slider">
                 <div class="frame-2">
@@ -43,44 +41,38 @@
                     <a class="navbar-brand logo" href="#">
                         <img src="./assets/img/Motel.svg" alt="Logo" >
                         <img src="./assets/img/Vison.svg" alt="Logo" >
-                      </a>
-                    <!-- <button class="btn  border border-1 rounded-0  text-white btn-reservas" type="submit">Reservas</button> -->
+                    </a>
                     <button class="btn-acao" id="btn-acao" type="submit">Reservas</button>
                     <button class="navbar-toggler shadow-none border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon border-0 "></span>
                     </button>
-                  <div class="collapse navbar-collapse p-2 " id="navbarNavAltMarkup">
-                    <div class="navbar-nav  nav-collapse">
-                      <a class="nav-link p-2 active" aria-current="page" href="#">Inicio</a>
-                      <a class="nav-link p-2 " href="#">Status</a>
-                      <a class="nav-link p-2" href="#">O Motel</a>
-                      <a class="nav-link p-2" href="#">Cortesias</a>
-                      <a class="nav-link p-2" href="#">Localização</a>
-                      <a class="nav-link p-2" href="#">Contato</a>
-                      <!-- <a class="nav-link disabled"></a> -->
+                    <div class="collapse navbar-collapse p-2 " id="navbarNavAltMarkup">
+                        <div class="navbar-nav  nav-collapse">
+                        <a class="nav-link p-2 active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link p-2 " href="#">Status</a>
+                        <a class="nav-link p-2" href="#">O Motel</a>
+                        <a class="nav-link p-2" href="#">Cortesias</a>
+                        <a class="nav-link p-2" href="#">Localização</a>
+                        <a class="nav-link p-2" href="#">Contato</a>
+                        </div>
                     </div>
-                  </div>
                 </div>
             </nav>
-
-            
         </div>
-        
     </header>
     <main>
         <section class="suites" id="suites">
             <div class="container-titulo-suites">
                 <h1>Nossas suítes</h1>
             </div>
-            
             <div id="carouselExampleAutoplaying" class="carousel slide box-carousel box-carousel-mq" data-interval="3000" data-bs-ride="true" height ="440px">
                 <div class="carousel-inner img-carousel">
-                    <div class="carousel-item active">
+                    <figure class="carousel-item active">
                         <img src="./assets/img/image 1.svg" class="d-block w-100 imagem-carrossel-um" alt="Suite 1">
-                    </div>
-                    <div class="carousel-item">
+                    </figure>
+                    <figure class="carousel-item">
                         <img src="./assets/img/image 1.svg" class="d-block w-100 imagem-carrossel-um" alt="Suite 2">
-                    </div>
+                    </figure>
                 </div>
 
                 <button class="carousel-control-prev d-flex justify-content-start" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -112,8 +104,6 @@
                     </div>
                     <img src="./assets/img/image 3.svg" id= "suite3" alt="Suite 3">
                 </div>
-               
-                
             </div>
             <div class="card border-0 rounded-0 card-box" style=" color: #2A2A2A; height: 100px">
                 <div class="card-body text-center box ">
@@ -135,8 +125,6 @@
                 <div class="container-img">
                     <img src="./assets/img/o-motel-m.svg" id="container-img" ></img>
                 </div>
-               
-    
                 <div class="card border-0 rounded-0 container-texto " style=" color: #2A2A2A">
                     <div class="card-body box-1 ">
                         <h5 class="card-title pt-3 titulo-motel">O Motel</h5>
@@ -155,111 +143,57 @@
                 <div class="container-titulo">
                     <h1 class="titulo-cortesia">Cortesias</h1>
                 </div>
-                <!-- <div class="row row-cols-1 row-cols-sm-3 g-0 justify-content-center px-5"> 
-                    <div class="col">
-                        <article class="card border-0 rounded-0 text-center card-cortesia p-0 m-2 col-12 col-sm-4 " >
-                            <img src="./assets/img/imgCard1.svg" class="card-img-top border-0 rounded-0" alt="Café da Manhã">
-                            <div class="card-body p-4  box-2 ">
-                                <h5 class="card-title titulo-card"><b>Café da manhã</b></h5>
-                                <p class="card-text texto-card">Servido todos os dias entre 6h e 10h, somente para o pernoite.</p>
-                            </div>
-                        </article>
-                    </div>
-                   <div class="col">
-                    <article class="card border-0 rounded-0 text-center card-cortesia p-0 m-2 col-12 col-sm-4 " id="card2" >
-                        <img src="./assets/img/imgCard2.svg" class="card-img-top border-0 rounded-0" alt="Balões de festa">
-                        <div class="card-body p-4 box-2">
-                            <h5 class="card-title titulo-card"><b>Especial para Aniversariantes</b></h5>
-                            <p class="card-text texto-card">A equipe do Vison Motel quer tornar o seu aniversário ainda mais especial!</p>
-                        </div>
-                    </article>
-                   </div>
-                    <div class="col">
-                        <article class="card border-0 rounded-0 text-center card-cortesia p-0 m-2 col-12 col-sm-4 ">
-                            <img src="./assets/img/imgCard3.svg" class="card-img-top border-0 rounded-0" alt="Casal na cama">
-                            <div class="card-body p-4 box-2">
-                                <h5 class="card-title titulo-card"><b>Descontos</b></h5>
-                                <p class="card-text texto-card">Economize se hospedando com desconto no Motel Vison!</p>
-                            </div>
-                        </article> 
-                    </div>
-                    
-                </div> -->
                 <div class="row justify-content-center p-4 box-cortesias"> 
 
                     <article class="card border-0 rounded-0 card-largura p-0 mt-3 col-12 col-md-3">
-                      <img src="./assets/img/imgCard1.svg" class="card-img-top card-posicao-imagem border-0 rounded-0" alt="Café da manhã">
-                      <div class="card-body card-altura border-0 rounded-0 p-4">
-                        <h5 class="card-title text-center titulo-card "><b> Café da Manhã</b></h5>
-                        <p class="card-text texto-card">Servido todos os dias entre 6h e 10h, somente para o pernoite.</p>
-                      </div>
+                        <img src="./assets/img/imgCard1.svg" class="card-img-top card-posicao-imagem border-0 rounded-0" alt="Café da manhã">
+                        <div class="card-body card-altura border-0 rounded-0 p-4">
+                            <h5 class="card-title text-center titulo-card "><b> Café da Manhã</b></h5>
+                            <p class="card-text texto-card">Servido todos os dias entre 6h e 10h, somente para o pernoite.</p>
+                        </div>
                     </article>
 
                     <article class="card border-0 rounded-0 card-largura p-0 mt-3 col-12 col-md-3">
-                      <img src="./assets/img/imgCard2.svg" class="card-img-top card-posicao-imagem border-0 rounded-0" alt="Balões de festa">
-                      <div class="card-body card-altura border-0 rounded-0 p-4" id= "card-2">
-                        <h5 class="card-title text-center titulo-card "><b>Especial para Aniversariantes</b></h5>
-                        <p class="card-text texto-card">A equipe do Vison Motel quer tornar o seu aniversário ainda mais especial!</p>
-                      </div>
+                        <img src="./assets/img/imgCard2.svg" class="card-img-top card-posicao-imagem border-0 rounded-0" alt="Balões de festa">
+                        <div class="card-body card-altura border-0 rounded-0 p-4" id= "card-2">
+                            <h5 class="card-title text-center titulo-card "><b>Especial para Aniversariantes</b></h5>
+                            <p class="card-text texto-card">A equipe do Vison Motel quer tornar o seu aniversário ainda mais especial!</p>
+                        </div>
                     </article>
 
                     <article class="card border-0 rounded-0 card-largura p-0 mt-3 col-12 col-md-3">
-                      <img src="./assets/img/imgCard3.svg" class="card-img-top card-posicao-imagem border-0 rounded-0" alt="Casal na cama">
-                      <div class="card-body card-altura border-0 rounded-0 p-4">
-                        <h5 class="card-title text-center titulo-card"><b>Descontos</b></h5>
-                        <p class="card-text texto-card">Economize se hospedando com desconto no Motel Vison!</p>
-                      </div>
+                        <img src="./assets/img/imgCard3.svg" class="card-img-top card-posicao-imagem border-0 rounded-0" alt="Casal na cama">
+                        <div class="card-body card-altura border-0 rounded-0 p-4">
+                            <h5 class="card-title text-center titulo-card"><b>Descontos</b></h5>
+                            <p class="card-text texto-card">Economize se hospedando com desconto no Motel Vison!</p>
+                        </div>
                     </article>
                 </div> 
                 <div class="hyperlink-cortesia" id="cortesia">
                     <a id= "cortesia" href="">Ver todas as cortesias</a>
                 </div>
             </div>
-           
         </section>
         <section class="Mapa-Localizacao">
-            <!-- <div class="localizacao-m ">
-                <article class="card border-0 rounded-0 text-center card-localizacao-m" id="card-localizacao-m" >
-                    <img src="./assets/img/mapa-m.svg" class="card-img-top img-localizacao" alt="Mapa Localização">
-                    <div class="card-body p-4  box-3 ">
-                        <h5 class="card-title titulo-localizacao"><b>Localização</b></h5>
-                        <p class="card-text texto-localizacao">Avenida Santos Dumont, 5253<br>Zona Industrial Norte - Joinville - SC</p>
-                        <a href="#" class="btn btn-primary border-0 rounded-0 py-3 px-4 btn-rota">Traçar rota</a>
-                    </div>
-                </article>
-            </div>
-
-            <div class="localizacao-d">
-                <article class="card border-0 rounded-0 text-center card-localizacao-d" id="card-localizacao-d" >
-                    <img src="./assets/img/mapa-d.svg" class="card-img-top img-localizacao" alt="Mapa Localização">
-                    <div class="card-body p-4  box-3 ">
-                        <h5 class="card-title titulo-localizacao"><b>Localização</b></h5>
-                        <p class="card-text texto-localizacao">Avenida Santos Dumont, 5253<br>Zona Industrial Norte - Joinville - SC</p>
-                        <a href="#" class="btn btn-primary border-0 rounded-0 py-3 px-4 btn-rota">Traçar rota</a>
-                    </div>
-                </article>
-            </div> -->
-
-            <div class="card  border-0 rounded-0 text-center bg-card " >
+            <div class="card d-flex align-items-center border-0 rounded-0 text-center bg-card " >
                 <div class="row g-0 m-4 p-0 d-flex align-items-center  card-localizacao" >
-                  <div class="col-md-6 col-xxl-6 p-0  border-0 rounded-0 card-img-localizacao">
-                    <img src="/assets/img/mapa-m.svg" class="img-fluid rounded-start card-posicao-imagem-m" alt="...">
-                    <img src="/assets/img/mapa-d.svg" class="img-fluid rounded-start card-posicao-imagem-d" alt="...">
-                  </div>
-                  <div class="col-md-6 col-xxl-6 ">
-                    <div class="card-body p-4 ">
-                      <h1 class="card-title text-center  titulo-localizacao"><b>Localização</b></h1>
-                      <p class="card-text texto-localizacao" >Avenida Santos Dumont, 5253<br>Zona Industrial Norte - Joinville - SC</p>
-                      <a href="#" class="btn btn-primary border-0 rounded-0 py-3 px-4 btn-rota"><small>Traçar rota</small></a>
+                    <div class="col-md-6 col-xxl-6 p-0  border-0 rounded-0 card-img-localizacao">
+                        <img src="/assets/img/mapa-m.svg" class="img-fluid rounded-start card-posicao-imagem-m" alt="Mapa de Localização">
+                        <img src="/assets/img/mapa-d.svg" class="img-fluid rounded-start card-posicao-imagem-d" alt="Mapa de Localização">
                     </div>
-                  </div>
+                    <div class="col-md-6 col-xxl-6 ">
+                        <div class="card-body p-4 ">
+                        <h1 class="card-title text-center  titulo-localizacao"><b>Localização</b></h1>
+                        <p class="card-text texto-localizacao" >Avenida Santos Dumont, 5253<br>Zona Industrial Norte - Joinville - SC</p>
+                        <a href="#" class="btn btn-primary border-0 rounded-0 py-3 px-4 btn-rota"><small>Traçar rota</small></a>
+                        </div>
+                    </div>
                 </div>
               </div>
         </section>
     </main>
     <footer>
         <div class="contato-m ">
-                
             <article class="card bg-transparent border-0 rounded-0 text-center card-contato" >
                 <figure class="img-logo">
                     <img src="./assets/img/Motel.svg" class="card-img-top" alt="Logo">
@@ -275,43 +209,33 @@
             </article>
         </div>
         <div class="contato-d ">
-                
-            <!-- <article class="card bg-transparent border-0 rounded-0 text-center card-contato" > -->
-                <figure class="img-logo-d">
-                    <img src="./assets/img/Motel.svg" class="card-img-top-d" alt="Logo">
-                    <img src="./assets/img/Vison.svg" class="card-img-top-d" alt="Logo">
-                    <p class="endereco"><small>SPMS, Conj./Lote 175/225 - Núcleo Bandeirante - Brasília - DF</small></p>
-                </figure>
-                <div class="lista">
-                    <ul class="lista-menu">
-                        <p><small>Início</small></p>
-                        <p><small>Suites</small></p>
-                        <p><small>O Motel</small></p>
-                    </ul>
-                </div>
-                <div class="lista">
-                    <ul class="lista-menu">
-                        <p><small>Gastronomia</small></p>
-                        <p><small>Localização</small></p>
-                        <p><small>Reservas</small></p>
-                    </ul>
-                </div>
-                <div class="lista">
-                    <ul class="lista-contato">
-                        <p id="texto-especial"><small>Whatsapp</small></p>
-                        <p><small>(061) 3552-2297</small></p>
-                        <p id="texto-especial"><small>E-mail</small></p>
-                        <p><small>contato@motelvison.com</small></p>
-                    </ul>
-                </div>
-                <!-- <span id="traco"><img src="./assets/img/Rectangle 4.svg" alt=""></span>
-                <div class="card-body pt-4 px-0 box-contato ">
-                    <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Reservas</a>
-                    <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Ver suítes</a>
-                    <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Whatsapp</a>
-                    <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Contato</a>
-                </div> -->
-            <!-- </article> -->
+            <figure class="img-logo-d">
+                <img src="./assets/img/Motel.svg" class="card-img-top-d" alt="Logo">
+                <img src="./assets/img/Vison.svg" class="card-img-top-d" alt="Logo">
+                <p class="endereco"><small>SPMS, Conj./Lote 175/225 - Núcleo Bandeirante - Brasília - DF</small></p>
+            </figure>
+            <div class="lista">
+                <ul class="lista-menu">
+                    <p><small>Início</small></p>
+                    <p><small>Suites</small></p>
+                    <p><small>O Motel</small></p>
+                </ul>
+            </div>
+            <div class="lista">
+                <ul class="lista-menu">
+                    <p><small>Gastronomia</small></p>
+                    <p><small>Localização</small></p>
+                    <p><small>Reservas</small></p>
+                </ul>
+            </div>
+            <div class="lista">
+                <ul class="lista-contato">
+                    <p id="texto-especial"><small>Whatsapp</small></p>
+                    <p><small>(061) 3552-2297</small></p>
+                    <p id="texto-especial"><small>E-mail</small></p>
+                    <p><small>contato@motelvison.com</small></p>
+                </ul>
+            </div>
         </div>
     </footer>
     <p id="copyright">guia de motéis sites │ guia de motéis © </p>

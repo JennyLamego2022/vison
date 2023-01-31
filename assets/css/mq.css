@@ -59,11 +59,6 @@ body{
     /*________________________ section Suites ________________________*/
     
     .suites{
-        /* display: flex; */
-        /* flex-direction: column;
-        align-items: center; */
-         /* height:682px;  */
-       
         padding-left: 0;
         padding-right: 0;
     }
@@ -83,18 +78,16 @@ body{
         justify-content: space-between;
         align-items: center;
         padding: 0px 0px 80px;
-        /* gap: 68px; */
         width: 100%;
         height: 520px;
     }
 
    .suite1{
-    width: 59%;
-    height: 81%;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    
+        width: 59%;
+        height: 81%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
    }
 
    .img-suite1{
@@ -150,57 +143,6 @@ body{
     }
 
     /* _________________________ O Motel ____________________________ */
-    /* .o-motel{
-        width: 100%;
-        height: 704px;
-        align-items: center;
-        display: flex;
-        align-content: center;
-        flex-direction: column;
-        justify-content: center;
-        background-color: var(--body-bg-second-color);
-        padding-bottom: 0;
-        padding: 4.5rem;
-        padding-top: 80px;
-        padding-bottom: 112px;
-    }
-
-    .motel{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: center;
-        gap:0;
-        padding-bottom: 0;
-        width: 100%;
-        
-        box-shadow: none;
-    }
-
-    .container-img, .container-texto{
-        width: 50%;
-        height: 50%;
-        position: relative;
-        background-color: transparent;
-    }
-
-    .box-1{
-        width: 100%;
-        height: 50%;
-        position: relative;
-        gap: 0;
-        top: 0;
-        left: 0;
-    }
-
-    .container-texto{
-        width: 50%;
-        height: 512px;
-        position: relative;
-        gap: 0;
-        top: 2rem;
-        left: 0;
-    } */
 
     #container-img{
         object-fit: cover;
@@ -208,7 +150,7 @@ body{
       
     }
 
-    /* __________________________________ Cortesias __________________________________ */
+    /* ________________________ Cortesias ___________________________ */
     .cortesias{
         width: 100%;
         height: 655px;
@@ -223,6 +165,7 @@ body{
     .box-cortesias{
        column-gap: 2rem;
     }
+
     .card-largura{
         height:24.5625rem !important;
         margin-right: 0;
@@ -256,6 +199,12 @@ body{
         bottom: 31px;
     }
     /* ______________________________ Localização ________________________________ */
+   
+    .bg-card{
+        height: 350px !important;
+        display: flex;
+        justify-content: center;
+    }
 
     .localizacao-d{
         display: initial;
@@ -280,7 +229,13 @@ body{
     .card.localizacao, .card-posicao-imagem-d{
         display: initial;
         height: 290px;
-        /* object-fit: cover; */
+        width: 992px;
+    }
+
+    .card-posicao-imagem-d{
+        max-width: 100%;
+        height: 100% !important;
+        object-fit: cover !important;
     }
 
     .card-img-localizacao{
@@ -349,6 +304,12 @@ body{
     .card-altura{
         height: 162.44px !important;
     }
+    .bg-card{
+        height: 450px !important;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
       /* _________________________ O Motel ____________________________ */
     .o-motel{
         width: 100%;
@@ -373,7 +334,6 @@ body{
         gap:0;
         padding-bottom: 0;
         width: 100%;
-        
         box-shadow: none;
     }
 
@@ -401,6 +361,17 @@ body{
         top: 2rem;
         left: 0;
     }
-
+    
 }
 
+@media (min-width: 1280px) {
+    .contato-d {
+        padding: 80px 114px;
+    }
+    
+     .img-logo-d {
+        width: 27%;
+        display: flex;
+        flex-direction: column;
+    }
+}
