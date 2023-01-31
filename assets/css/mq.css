@@ -228,14 +228,11 @@ body{
         margin-right: 0;
         margin-left: 0;
         width: 30% !important;
-    
-
     }
 
     .card-cortesia{
         width: 23rem !important;
         height: 377px;
-        
     }
 
     .box-2{
@@ -278,10 +275,17 @@ body{
     }
     .card-posicao-imagem-m{
         display:none;
+        
     }
     .card.localizacao, .card-posicao-imagem-d{
         display: initial;
         height: 290px;
+        /* object-fit: cover; */
+    }
+
+    .card-img-localizacao{
+        width: 100%;
+        height: 100%;
     }
 
     #card-localizacao-d{
@@ -340,6 +344,11 @@ body{
 }
 
 @media (min-width: 1024px) {
+
+    /* _______________________ cortesias ______________________ */
+    .card-altura{
+        height: 162.44px !important;
+    }
       /* _________________________ O Motel ____________________________ */
     .o-motel{
         width: 100%;
