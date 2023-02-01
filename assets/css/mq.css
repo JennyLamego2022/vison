@@ -27,36 +27,8 @@ body{
         height: 100vh;
     }
   
-    /* .container-nav{
-       position: relative;
-       top: 0;
-    }
-
-    .bg-nav, .nav-collapse{
-        background-color: transparent;
-    } */
-
-    /* .slider{
-        height: 100vh;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-    }
-
-    .container-slider{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    } */
-
-    /* .sticky-bottom{
-        position: absolute;
-    } */
-
-    /*________________________ section Suites ________________________*/
+  
+    /*________________________  Suites ________________________*/
     
     .suites{
         padding-left: 0;
@@ -268,7 +240,6 @@ body{
 
      .lista{
         width: 20%;
-       
     }
 
     .lista-contato, .lista-menu{
@@ -352,7 +323,7 @@ body{
 }
 
 
-.teste {
+.menu {
     position: absolute;
     top: 0;
     width: 100%;
