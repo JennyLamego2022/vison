@@ -79,6 +79,7 @@ header{
     border-radius: 0;
 }
 
+
 .container-slider{
     height: 100vh;
     top: 0;
@@ -166,6 +167,13 @@ header{
 
 .btn-acao:hover{
     background-color:var(--btn-primary-color);
+}
+
+
+a:link, a{
+    text-decoration-line: none;
+    color:var(--text-primary-color) !important;
+   
 }
 
 /* __________________ Suites___________________________ */

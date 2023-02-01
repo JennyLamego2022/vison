@@ -99,7 +99,10 @@
 **Extra**
 
  - [ ] Criar funções para os botões;
- - [ ] Link para mapa, Google mapas
+    - [x] Função ancora 
+    - [x] Função link externo
+    - [ ] Função submenu JavaScript
+ - [x] Link para mapa, Google mapas
  
  
 ## Tecnologias

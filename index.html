@@ -23,7 +23,7 @@
 </head>
 <body>
     <header>
-        <div class="container-slider">
+        <div class="container-slider"><a name = "home"></a>
             <div class="slider">
                 <div class="frame-2">
                     <div class="titulo">
@@ -31,8 +31,8 @@
                          <h1 id="titulo-2">Vison Motel</h1>
                     </div>
                     <div class="acoes">
-                        <button class="btn-acao">Ver suítes</button>
-                        <button class="btn-acao">Reservas</button>
+                        <button class="btn-acao"><a href="#suites">Ver suítes</a></button>
+                        <button class="btn-acao"><a href="#contatos">Reservas</a></button>
                     </div>
                 </div>
             </div>
@@ -66,19 +66,44 @@
                             <img src="./assets/img/Motel.svg" alt="Logo" >
                             <img src="./assets/img/Vison.svg" alt="Logo" >
                         </a>
-                        <button class="btn-acao" id="btn-acao" type="submit">Reservas</button>
+                        <button class="btn-acao" id="btn-acao" type="submit"><a href="#contatos" id="reservas">Reservas</a></button>
                         <button class="navbar-toggler  shadow-none border border-0" type="button" data-bs-toggle="dropdown" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon border-0 "></span>
                         </button>
                         <div class="collapse navbar-collapse p-2  dropdown-menu" id="navbarNavAltMarkup">
                             <div class="navbar-nav  nav-collapse">
-                            <a class="nav-link  p-2 active" aria-current="page" href="#">Inicio</a>
-                            <a class="nav-link  p-2 " href="#">Status</a>
-                            <a class="nav-link p-2" href="#">O Motel</a>
-                            <a class="nav-link p-2" href="#">Cortesias</a>
-                            <a class="nav-link p-2" href="#">Localização</a>
-                            <a class="nav-link p-2" href="#">Contato</a>
-                            </div>
+                            <a class="nav-link  p-2 active" aria-current="page" href="#home">Inicio</a>
+                            <a class="nav-link  p-2 " href="#home">Status</a>
+                            <a class="nav-link p-2" href="#motel">O Motel</a>
+                            <a class="nav-link p-2" href="#cortesias">Cortesias</a>
+                            <a class="nav-link p-2" href="#localizacao">Localização</a>
+                            <a class="nav-link p-2" href="#contatos">Contato</a>
+                            
+                            <!-- <div class="btn-group drope">
+                                <button type="button" class="btn btn-secondary dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link p-2" href="#contato">Contato</a>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><button class="dropdown-item" type="button"><a  href="#">Action</a></li></button>
+                                    <p id="texto-especial"><small>Whatsapp</small></p>
+                                    <p><small>(061) 3552-2297</small></p>
+                                    <p id="texto-especial"><small>E-mail</small></p>
+                                    <p><small>contato@motelvison.com</small></p>
+                                </ul>
+                              </div>
+                              <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Dropdown button
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                  <li><a class="dropdown-item active" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                </ul>
+                              </div>
+                            </div> -->
                         </div>
                     </div>
                 </nav>
@@ -88,7 +113,7 @@
     <main>
         <section class="suites" id="suites">
             <div class="container-titulo-suites">
-                <h1>Nossas suítes</h1>
+                <h1>Nossas suítes<a name = "suites"></a></h1>
             </div>
             <div id="carouselExampleAutoplaying" class="carousel slide box-carousel box-carousel-mq" data-interval="3000" data-bs-ride="true" height ="440px">
                 <div class="carousel-inner img-carousel">
@@ -145,7 +170,7 @@
                 <a id= "hyperlink" href="">Ver todas as suítes</a>
             </div>
         </section>
-        <section class="o-motel">
+        <section class="o-motel"><a name = "motel"></a>
             <div class="motel">
                 <div class="container-img">
                     <img src="./assets/img/o-motel-m.svg" id="container-img" ></img>
@@ -164,13 +189,13 @@
             </div>
         </section>
         <section class="cortesia">
-            <div class="container-fluid cortesias ">
+            <div class="container-fluid cortesias "><a name = "cortesias"></a>
                 <div class="container-titulo">
                     <h1 class="titulo-cortesia">Cortesias</h1>
                 </div>
                 <div class="row justify-content-center p-4 box-cortesias"> 
 
-                    <article class="card border-0 rounded-0 card-largura p-0 mt-3 col-12 col-md-3">
+                    <article class="card border-0 rounded-0 card-largura p-0 mt-3 col-12 col-md-3"><a name = "gastronomia"></a>
                         <img src="./assets/img/imgCard1.svg" class="card-img-top card-posicao-imagem border-0 rounded-0" alt="Café da manhã">
                         <div class="card-body card-altura border-0 rounded-0 p-4">
                             <h5 class="card-title text-center titulo-card "><b> Café da Manhã</b></h5>
@@ -200,7 +225,7 @@
             </div>
         </section>
         <section class="Mapa-Localizacao">
-            <div class="card d-flex align-items-center border-0 rounded-0 text-center bg-card " >
+            <div class="card d-flex align-items-center border-0 rounded-0 text-center bg-card " ><a name = "localizacao"></a>
                 <div class="row g-0 m-4 p-0 d-flex align-items-center  card-localizacao" >
                     <div class="col-md-6 col-xxl-6 p-0  border-0 rounded-0 card-img-localizacao">
                         <img src="/assets/img/mapa-m.svg" class="img-fluid rounded-start card-posicao-imagem-m" alt="Mapa de Localização">
@@ -210,14 +235,15 @@
                         <div class="card-body p-4 ">
                         <h1 class="card-title text-center  titulo-localizacao"><b>Localização</b></h1>
                         <p class="card-text texto-localizacao" >Avenida Santos Dumont, 5253<br>Zona Industrial Norte - Joinville - SC</p>
-                        <a href="#" class="btn btn-primary border-0 rounded-0 py-3 px-4 btn-rota"><small>Traçar rota</small></a>
+                        <a href="https://www.google.com.br/maps/dir//Av.+Santos+Dumont,+5253+-+Distrito+Industrial,+Joinville+-+SC,+89219-730/@-26.2366155,-48.8252422,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94deae58cfe71ce9:0xfb3e6a8cedd328d4!2m2!1d-48.8252422!2d-26.2366155?hl=pt-BR" 
+                        class="btn btn-primary border-0 rounded-0 py-3 px-4 btn-rota"><small>Traçar rota</small></a>
                         </div>
                     </div>
                 </div>
               </div>
         </section>
     </main>
-    <footer>
+    <footer><a name = "contatos"></a>
         <div class="contato-m ">
             <article class="card bg-transparent border-0 rounded-0 text-center card-contato" >
                 <figure class="img-logo">
@@ -227,7 +253,7 @@
                 <span id="traco"><img src="./assets/img/Rectangle 4.svg" alt=""></span>
                 <div class="card-body pt-4 px-0 box-contato ">
                     <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Reservas</a>
-                    <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Ver suítes</a>
+                    <a href="#suites" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Ver suítes</a>
                     <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Whatsapp</a>
                     <a href="#" class="btn btn-primary border rounded-0 py-3 px-4 btn-contato">Contato</a>
                 </div>
@@ -241,24 +267,24 @@
             </figure>
             <div class="lista">
                 <ul class="lista-menu">
-                    <p><small>Início</small></p>
-                    <p><small>Suites</small></p>
-                    <p><small>O Motel</small></p>
+                    <p><small><a href="#home">Início</a></small></p>
+                    <p><small><a href="#suites">Suites</a></small></p>
+                    <p><small><a href="#motel">O Motel</a></small></p>
                 </ul>
             </div>
             <div class="lista">
                 <ul class="lista-menu">
-                    <p><small>Gastronomia</small></p>
-                    <p><small>Localização</small></p>
-                    <p><small>Reservas</small></p>
+                    <p><small><a href="#gastronomia">Gastronomia</a></small></p>
+                    <p><small><a href="#localizacao">Localização</a></small></p>
+                    <p><small><a href="#contatos">Reservas</a></small></p>
                 </ul>
             </div>
             <div class="lista">
                 <ul class="lista-contato">
-                    <p id="texto-especial"><small>Whatsapp</small></p>
-                    <p><small>(061) 3552-2297</small></p>
-                    <p id="texto-especial"><small>E-mail</small></p>
-                    <p><small>contato@motelvison.com</small></p>
+                    <p id="texto-especial"><a href="https://web.whatsapp.com/send?phone=556135522297"><small>Whatsapp</small></a></p>
+                    <p><a href="https://web.whatsapp.com/send?phone=556135522297"><small>(061) 3552-2297</a></small></p>
+                    <p id="texto-especial"><a href="mailto:contato@motelvison.com?subject=Mais Informações sobre o Motel Vison&body=Olá! Gostaria de mais informações sobre XXXX " ><small>E-mail</small></a></p>
+                    <p><a href="mailto:contato@motelvison.com?subject=Mais Informações sobre o Motel Vison&body=Olá! Gostaria de mais informações sobre XXXX " ><small>contato@motelvison.com</small></a></p>
                 </ul>
             </div>
         </div>
