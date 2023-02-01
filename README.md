@@ -5,27 +5,46 @@
  - [Etapas](#etapas)
  - [Tecnologias](#tecnologias)
  - [Clonagem](#clonagem)
- - [Depoimento](#depoimento)
+ <!-- - [Depoimento](#depoimento) -->
  - [Contato](#contato)
  - [Desenvolvedora](#desenvolvedora)
 
 ## Descrição
 
- Teste técnico
+ Teste técnico para a vaga de - Desenvolvedor Web Júnior
+
+ ### Todos os requisitos do escopo do teste foram implementados inclusive algumas funções extras. 
+ ### todo o código escrito atende as regras:
+
+ ### INSTRUÇÕES PARA O TESTE
+
+    - Desenvolvimento de página em html e css;
+
+    - Cliente: Vison Motel.
+
+### Requisitos: 
+
+    - trabalhe preferencialmente com bootstrap;
+
+    - existem dois layouts (mobile/desktop), porém, precisamos que faça o site de modo responsivo em uma única página;
+
+    - javascript, jquery e outros recursos ficam a seu critério;
+
 
 ## Imagens
 
 <h3> :camera: Página Mobile</h3>
 
 <div align="center">
-<img  src = "" width = "375px"/>
-<img  src = "" width = "375px"/>
+<img  src = "https://user-images.githubusercontent.com/97410860/216143332-5f418240-10eb-4a40-abcd-77828539bb15.png" width = "175px"/>
+
+<img  src = "https://user-images.githubusercontent.com/97410860/216143346-45fac972-652f-408e-a62c-ac4dec9c4af3.png" width = "175px"/>
 </div>
 
 <h3> :camera: Página Desktop</h3>
 <div align="center">
-<img  src = "" width = "375px"/>
-<img  src = "" width = "375px"/>
+<img  src = "https://user-images.githubusercontent.com/97410860/216143348-52feac8e-d181-477d-92be-ed419883965b.png" width = "275px"/>
+<!-- <img  src = "" width = "375px"/> -->
 </div>
 
 ## Etapas
@@ -101,7 +120,6 @@
  - [ ] Criar funções para os botões;
     - [x] Função ancora 
     - [x] Função link externo
-    - [ ] Função submenu JavaScript
  - [x] Link para mapa, Google mapas
  
  
@@ -113,7 +131,7 @@
  
 Hospedagem:
 
-Vercel: https://vision-six-bay.vercel.app/
+Vercel: https://vison-six-bay.vercel.app/
 
 
  ## Clonagem
@@ -138,11 +156,11 @@ Clone este repositório usando o comando:
 git clone https://github.com/<meu_user>/<my-repo>.git
 ```
 
- 
+<!--  
 ## Depoimento
 
 
- 
+  -->
 
 
 ## Desenvolvedora
