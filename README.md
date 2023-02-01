@@ -35,8 +35,8 @@
     Header
 - [x] Imagem + bg;  
 - [x] Navbar menu hamburguer + botão Reservas;  
-    - [ ] corrigir dropdown da navabar (dropup ?);  
-    - [ ] corrigir largura navabar (dropup ?);  
+    - [x] corrigir dropdown da navabar (dropup ?);  
+    - [x] corrigir largura navabar (dropup ?);  
 - [x] Container slider;  
     - [x] Texto;  
     - [x] 2 botões (Ver suites e Reservas);  
@@ -69,7 +69,32 @@
 
 
 **Desktop**
-- [ ] Reponsividade
+- [x] Reponsividade;
+    Header
+- [x] Mudança de comportamento do menu;
+
+    Main
+- [x] Container suites;
+    - [x] titulo;
+    - [x] Mudança de comportamento do Carousel;
+    - [x] Box suite;
+- [x] Container O Motel;
+    - [x] Mudança no comportamento da imagem para flex row;
+ - [x] Container cortesias;
+    - [x] Card img + texto, alteração de posicionamento de vertical para horizontal;
+    - [x] Card img + texto, alteração de posicionamento de vertical para horizontal;
+    - [x] Card img + texto, alteração de posicionamento de vertical para horizontal;
+  - [x] Container Localização;
+    - [x] Mudança no comportamento para flex row Card img + texto + botao;
+
+    Footer
+- [x] Mudança no comportamento;
+- [x] Exclusao de 4 botões (Reservas, Ver suites, Whatsapp, Contato);
+- [x] Inclusão de 3 listas de contatos do menu
+
+    Copyright
+- [x] Bg;
+- [x] Texto;
 
 **Extra**
 
