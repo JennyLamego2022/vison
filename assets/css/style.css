@@ -70,6 +70,15 @@ header{
     margin-left: 5px;
 }
 
+.dropup .dropdown-menu[data-bs-popper] {
+    top: auto;
+    bottom: 100%;
+    margin-top: 0;
+    margin-bottom: var(--bs-dropdown-spacer);
+    background-color: #2A2A2A;
+    border-radius: 0;
+}
+
 .container-slider{
     height: 100vh;
     top: 0;
