@@ -5,7 +5,6 @@
  - [Etapas](#etapas)
  - [Tecnologias](#tecnologias)
  - [Clonagem](#clonagem)
- <!-- - [Depoimento](#depoimento) -->
  - [Contato](#contato)
  - [Desenvolvedora](#desenvolvedora)
 
@@ -14,7 +13,7 @@
  Teste técnico para a vaga de - Desenvolvedor Web Júnior
 
  ### Todos os requisitos do escopo do teste foram implementados inclusive algumas funções extras. 
- ### todo o código escrito atende as regras:
+ ### Todo o código escrito atende as regras:
 
  ### INSTRUÇÕES PARA O TESTE
 
@@ -117,7 +116,7 @@
 
 **Extra**
 
- - [ ] Criar funções para os botões;
+ - [x] Criar funções para os botões;
     - [x] Função ancora 
     - [x] Função link externo
  - [x] Link para mapa, Google mapas
