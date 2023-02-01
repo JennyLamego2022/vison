@@ -300,6 +300,60 @@ body{
 
 @media (min-width: 1024px) {
 
+    /* _____________________ Header ___________________________ */
+
+   
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    left: 0;
+    right: 0;
+    width: 54%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    /* column-gap: 24rem; */
+    background-color: transparent;
+    border: none;
+}
+
+
+.bg-nav {
+    background-color: transparent;
+    /* background-color: var(--text-second-color); */
+    height: 70px;
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    background-color: transparent;
+}
+
+#btn-acao {
+    width: 105px;
+    height: 45px;
+    background-color: white;
+    color: black;
+}
+
+
+.teste {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+}
     /* _______________________ cortesias ______________________ */
     .card-altura{
         height: 162.44px !important;
